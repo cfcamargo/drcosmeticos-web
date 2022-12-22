@@ -10,7 +10,7 @@
           <NavLink text="Produtos" :to="'#products'" @click="toogleMenu"/>
           <NavLink text="Depoimentos" :to="'#testimonials'" @click="toogleMenu"/>
           <NavLink text="Contato" :to="'#contact'" @click="toogleMenu"/>
-          <button class="absolute top-6 right-6 w-4" @click="toogleMenu">
+          <button class="absolute top-8 right-9 w-4" @click="toogleMenu">
             <CloseMenuIcon />
           </button>
         </nav>
@@ -47,6 +47,13 @@ export default defineComponent({
         return "fixed inset-0 w-full h-screen bg-white z-50 flex flex-col gap-10 justify-center items-center animate__animated animate__slideOutUp"
       }
     }
-  }
+  },
+  created () {
+    window.onresize = () =>{
+      if(this.menuIsOpen) {
+        this.menuIsOpen = false
+      }
+    } ;
+  },
 })
 </script>
