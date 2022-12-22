@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <header class="fixed w-full bg-white shadow-sm z-50">
     <div class="flex items-center justify-between containeer">
       <div class="w-16">
         <Logo />
@@ -10,9 +10,8 @@
       <div class="xs:block md:hidden">
         <NavigationMenuMobile />
       </div>
-
     </div>
-  </div>
+  </header>
 </template>
 
 <script lang="ts">

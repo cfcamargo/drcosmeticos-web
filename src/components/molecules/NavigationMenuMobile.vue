@@ -1,38 +1,46 @@
 <template>
-  <div>
-      <div>
-
-      </div>
-      <nav :class="showMenu">
-        <NavLink text="Home" :to="'#banner'"/>
-        <NavLink text="Sobre" :to="'#about'"/>
-        <NavLink text="Produtos" :to="'#products'"/>
-        <NavLink text="Depoimentos" :to="'#testimonials'"/>
-        <NavLink text="Contato" :to="'#contact'"/>
-        <button class="absolute top-6 right-6">X</button>
+  <div class="z-50">
+      <button class="w-8 h-[80px]" @click="toogleMenu">
+        <HamburguerIcon />
+      </button>
+      <nav :class="showMenu" class="transition ease-in-out delay-150">
+        <NavLink text="Home" :to="'#banner'" @click="toogleMenu"/>
+        <NavLink text="Sobre" :to="'#about'" @click="toogleMenu"/>
+        <NavLink text="Produtos" :to="'#products'" @click="toogleMenu"/>
+        <NavLink text="Depoimentos" :to="'#testimonials'" @click="toogleMenu"/>
+        <NavLink text="Contato" :to="'#contact'" @click="toogleMenu"/>
+        <button class="absolute top-6 right-6 w-4" @click="toogleMenu">
+           <CloseMenuIcon />
+        </button>
       </nav>
   </div>
 </template>
 
 <script lang="ts">
-import { computed, defineComponent } from 'vue'
+import { defineComponent } from 'vue'
 import NavLink from '../atoms/NavLink.vue'
+import HamburguerIcon from '../atoms/HamburguerIcon.vue'
+import CloseMenuIcon from '../atoms/CloseMenuIcon.vue'
 
 export default defineComponent({
-  components : { NavLink },
+  components : { NavLink, HamburguerIcon, CloseMenuIcon },
   data() {
     return {
       menuIsOpen: false
     }
   },
-
+  methods: {
+    toogleMenu() {
+      this.menuIsOpen = !this.menuIsOpen;
+    }
+  },
 
   computed : {
     showMenu() {
       if(this.menuIsOpen){
-        return "fixed inset-0 w-full h-screen bg-white z-50 flex flex-col gap-10 justify-center items-center"
+        return "fixed inset-0 w-full h-screen bg-white z-50 flex flex-col gap-10 justify-center items-center transition ease-in-out delay-150"
       } else {
-        return "hidden"
+        return "fixed -top-[4000px] w-full h-screen bg-white z-50 flex flex-col gap-10 justify-center items-center transition ease-in-out delay-150"
       }
     }
   }

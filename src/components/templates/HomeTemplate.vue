@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <main>
+    <main class="pt-[80px]">
       <Banner />
       <About />
     </main>
