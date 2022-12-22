@@ -5,6 +5,7 @@
       <Banner />
       <About />
       <Products />
+      <Contact />
     </main>
   </div>
 </template>
@@ -15,9 +16,10 @@ import Header from '../organisms/Header/index.vue'
 import Banner from '../organisms/Banner/index.vue'
 import About from '../organisms/About/index.vue'
 import Products from '../organisms/Products/index.vue'
+import Contact from '../organisms/Contact/index.vue'
 
 export default defineComponent({
-  components: { Header, Banner, About, Products }
+  components: { Header, Banner, About, Products, Contact}
 })
 </script>
 
