@@ -6,7 +6,7 @@
           <p class="text-ligth-text">Entre em contato com a Dr Cosméticos queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
 
           <a href="https://whats.link/drcomesticos" class="flex items-center gap-2 bg-rose xs:w-full md:w-60 h-12 justify-center rounded text-white hover:brightness-90">
-            <span><WhatsappIcon :color="text-white" :icon_width="20"/></span>
+            <span><WhatsappIcon color="text-white" :icon_width="20"/></span>
             <span>Entrar em contato</span>
           </a>
       </div>
