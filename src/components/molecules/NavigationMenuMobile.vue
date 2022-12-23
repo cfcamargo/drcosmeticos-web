@@ -8,7 +8,7 @@
           <NavLink text="Home" :to="'#banner'" @click="toogleMenu"/>
           <NavLink text="Sobre" :to="'#about'" @click="toogleMenu"/>
           <NavLink text="Produtos" :to="'#products'" @click="toogleMenu"/>
-          <NavLink text="Depoimentos" :to="'#testimonials'" @click="toogleMenu"/>
+          <!-- <NavLink text="Depoimentos" :to="'#testimonials'" @click="toogleMenu"/> -->
           <NavLink text="Contato" :to="'#contact'" @click="toogleMenu"/>
           <button class="absolute top-8 right-9 w-4" @click="toogleMenu">
             <CloseMenuIcon />

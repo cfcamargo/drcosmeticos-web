@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#f9f9f9]">
+  <div class="bg-[#f9f9f9]" id="contact">
     <div class="containeer py-24 grid xs:grid-cols-1 xs:gap-10 md:gap-0 md:grid-cols-2 items-center">
       <div class="flex flex-col gap-10 xs:pr-0 md:pr-20 xs:w-full md:w-[80%]">
           <h3 class="text-3xl font-bold text-rose">Entre em contato com a gente!</h3>

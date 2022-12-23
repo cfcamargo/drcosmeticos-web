@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20">
+  <div class="py-20" id="products">
     <div class="containeer">
         <header class="mx-auto w-full px-6 max-w-xl text-center flex flex-col gap-8">
           <h2 class="text-3xl font-bold text-ouro">Nossos Produtos</h2>

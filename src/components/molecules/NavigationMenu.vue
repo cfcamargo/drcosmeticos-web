@@ -4,7 +4,7 @@
         <NavLink text="Home" :to="'#banner'"/>
         <NavLink text="Sobre" :to="'#about'"/>
         <NavLink text="Produtos" :to="'#products'"/>
-        <NavLink text="Depoimentos" :to="'#testimonials'"/>
+        <!-- <NavLink text="Depoimentos" :to="'#testimonials'"/> -->
         <NavLink text="Contato" :to="'#contact'"/>
       </nav>
   </div>

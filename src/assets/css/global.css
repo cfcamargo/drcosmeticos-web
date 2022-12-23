@@ -11,5 +11,5 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-paging: 2rem;
+  scroll-padding: 3rem;
 }

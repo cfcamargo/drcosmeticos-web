@@ -1,5 +1,5 @@
 <template>
-  <div class="containeer py-24 grid xs:grid-cols-1 md:grid-cols-2 items-center gap-8">
+  <div class="containeer py-32 grid xs:grid-cols-1 md:grid-cols-2 items-center gap-8" id="about">
     <div>
       <div class="w-[70%] h-10 bg-rose z-10 -mt-10"/>
       <img src="../../../assets/images/about-cover.png" class=" z-50">
