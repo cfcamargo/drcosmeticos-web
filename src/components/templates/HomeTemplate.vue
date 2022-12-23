@@ -7,6 +7,9 @@
       <Products />
       <Contact />
     </main>
+    <footer>
+      <Footer />
+    </footer>
   </div>
 </template>
 
@@ -17,9 +20,10 @@ import Banner from '../organisms/Banner/index.vue'
 import About from '../organisms/About/index.vue'
 import Products from '../organisms/Products/index.vue'
 import Contact from '../organisms/Contact/index.vue'
+import Footer from '../organisms/Footer/index.vue'
 
 export default defineComponent({
-  components: { Header, Banner, About, Products, Contact}
+  components: { Header, Banner, About, Products, Contact, Footer}
 })
 </script>
 

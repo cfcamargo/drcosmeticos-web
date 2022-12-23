@@ -59,9 +59,9 @@
 
         <div class="grid xs:grid-cols-1 md:grid-cols-2 mt-36 xs:justify-center md:items-center gap-8">
           <ImageCover source="products/suplemento.png" :invert="false" />
-          <div class="flex flex-col gap-8 xs:text-center md:text-end items-end">
+          <div class="flex flex-col gap-8 xs:text-center md:text-end xs:justify-center md:items-end">
             <h2 class="font-bold text-2xl text-ouro">Suplemento Lipo Redux</h2>
-            <ul class="w-3/5">
+            <ul class="xs:w-full md:w-3/5">
               <li>- Reduz o acúmulo de liquido.</li>
               <li>- Acelera o metabolismo.</li>
               <li>- Reduz gordura e celulite.</li>

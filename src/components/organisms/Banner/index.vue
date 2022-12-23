@@ -6,9 +6,9 @@
             Essências da linha Via Aroma.
           </h1>
           <p class="text-ligth-text xs:text-center md:text-start">Possuímos uma vasta opções de essências e produtos para seu bem estar pessoal.</p>
-          <button class="px-10 py-4 rounded bg-rose text-white hover:brightness-90 xs:w-full md:w-auto xs:mb-4 md:mb-0">
+          <a href="https://whats.link/drcomesticos" class="px-10 py-4 rounded bg-rose text-white hover:brightness-90 xs:w-full md:w-auto xs:mb-4 md:mb-0">
             Quero Conhecer
-          </button>
+          </a>
       </div>
 
       <div class="flex xs:justify-center md:justify-end w-full"> 
