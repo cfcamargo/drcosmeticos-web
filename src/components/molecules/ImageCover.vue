@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col" :class="checkImagePosition">
+  <div class="flex flex-col xs:mx-auto md:m-0" :class="checkImagePosition">
       <div class="w-[70%] h-10 bg-rose"/>
-      <img :src="`../../src/assets/images/${source}`">
+      <img :src="source">
   </div>
 </template>
 
@@ -11,8 +11,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   props: {
     source: {
-      type: String,
-      required: true
+      type: String
     },
     invert : {
       type: Boolean,
