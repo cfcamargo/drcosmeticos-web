@@ -12,7 +12,7 @@
       </div>
 
       <div class="flex items-center xs:mt-10 md:mt-0">
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-6">
           <p class="flex items-center gap-2">
             <span><InstagramIcon color="text-rose" :icon_width="20"/></span>
             <a href="https://www.instagram.com/dr_cosmeticosbr/"><span class="text-ligth-text">@dr_cosmeticosbr</span></a>
@@ -20,10 +20,6 @@
           <p class="flex items-center gap-2">
             <span><WhatsappIcon color="text-rose" :icon_width="20"/></span>
             <a href="https://whats.link/drcomesticos"><span class="text-ligth-text">67 9 9208-4022</span></a>
-          </p>
-          <p class="flex items-center gap-2">
-            <span><TelephoneIcon color="text-rose" :icon_width="20"/></span>
-            <span class="text-ligth-text">67 3431-0000</span>
           </p>
           <p class="flex items-center gap-2">
             <span><MailIcon color="text-rose" :icon_width="20"/></span>
