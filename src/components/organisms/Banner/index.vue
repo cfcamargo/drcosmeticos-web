@@ -37,7 +37,7 @@
           </div>
 
           <div class="flex xs:justify-center md:justify-end w-[50%]">
-              <img src="../../../assets/images/PHOTO-2023-02-02-18-52-45 2 1.png" class="z-10">
+              <img src="../../../assets/images/valentines.png" class="z-10">
             </div>
         </div>
       </swiper-slide>
